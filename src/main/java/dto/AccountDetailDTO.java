@@ -8,7 +8,8 @@ import lombok.Setter;
 import java.sql.Timestamp;
 
 @Getter @Setter @AllArgsConstructor @Builder
-public class AccountDetailDTO {
+public class
+AccountDetailDTO {
     // 계좌
     private Integer accountNumber;
     private Integer accountBalance;
